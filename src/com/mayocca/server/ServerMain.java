@@ -1,10 +1,11 @@
-package com.mayocca.clases;
+package com.mayocca.server;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
+import com.mayocca.classes.AgendaImpl;
 import com.mayocca.interfaces.Agenda;
 
 public class ServerMain {

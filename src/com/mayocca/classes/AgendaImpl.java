@@ -1,4 +1,4 @@
-package com.mayocca.clases;
+package com.mayocca.classes;
 
 import java.rmi.RemoteException;
 import java.util.ArrayList;
