@@ -1,10 +1,8 @@
-package com.mayocca.classes;
+package com.mayocca.contactbook.server;
 
 import java.io.Serializable;
 
 public class Contact implements Serializable {
-
-    public static final long serialVersionUID = 43324234543L;
 
     public String nombre;
     public String apellido;
